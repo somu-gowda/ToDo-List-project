@@ -1,0 +1,51 @@
+body{
+    background-color: blueviolet;
+    align-content: center;
+
+}
+
+
+.todoform{
+    background-color: rgb(128, 114, 110);
+   min-height: 500px;
+   width: 400px;
+   margin : 40px auto;
+
+}
+
+.todoform input{
+    background-color: rgb(27,112,137);
+    border: 0;
+    width: 200px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px;
+    color: cyan;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.todoform input::placeholder{
+    color: black;
+}
+
+todoform input:focus{
+    outline: none;
+}
+
+.todoform button{
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(202,156,26);
+    cursor: pointer;
+    font-weight: bolder;
+    color: #fff;
+}
+.todoform h2{
+   
+    color: thistle;
+    margin-right: 50px;
+ 
+    
+}
